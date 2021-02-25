@@ -1,0 +1,17 @@
+C:\Users\tegar\source\repos\Alex Mindustry Launcher\Alex Mindustry Launcher\bin\Debug\netcoreapp3.1\Alex Mindustry Launcher.exe
+C:\Users\tegar\source\repos\Alex Mindustry Launcher\Alex Mindustry Launcher\bin\Debug\netcoreapp3.1\Alex Mindustry Launcher.deps.json
+C:\Users\tegar\source\repos\Alex Mindustry Launcher\Alex Mindustry Launcher\bin\Debug\netcoreapp3.1\Alex Mindustry Launcher.runtimeconfig.json
+C:\Users\tegar\source\repos\Alex Mindustry Launcher\Alex Mindustry Launcher\bin\Debug\netcoreapp3.1\Alex Mindustry Launcher.runtimeconfig.dev.json
+C:\Users\tegar\source\repos\Alex Mindustry Launcher\Alex Mindustry Launcher\bin\Debug\netcoreapp3.1\Alex Mindustry Launcher.dll
+C:\Users\tegar\source\repos\Alex Mindustry Launcher\Alex Mindustry Launcher\bin\Debug\netcoreapp3.1\Alex Mindustry Launcher.pdb
+C:\Users\tegar\source\repos\Alex Mindustry Launcher\Alex Mindustry Launcher\obj\Debug\netcoreapp3.1\Alex Mindustry Launcher.csprojAssemblyReference.cache
+C:\Users\tegar\source\repos\Alex Mindustry Launcher\Alex Mindustry Launcher\obj\Debug\netcoreapp3.1\Alex Mindustry Launcher.csproj.GenerateResource.cache
+C:\Users\tegar\source\repos\Alex Mindustry Launcher\Alex Mindustry Launcher\obj\Debug\netcoreapp3.1\Alex Mindustry Launcher.AssemblyInfoInputs.cache
+C:\Users\tegar\source\repos\Alex Mindustry Launcher\Alex Mindustry Launcher\obj\Debug\netcoreapp3.1\Alex Mindustry Launcher.AssemblyInfo.cs
+C:\Users\tegar\source\repos\Alex Mindustry Launcher\Alex Mindustry Launcher\obj\Debug\netcoreapp3.1\Alex Mindustry Launcher.csproj.CoreCompileInputs.cache
+C:\Users\tegar\source\repos\Alex Mindustry Launcher\Alex Mindustry Launcher\obj\Debug\netcoreapp3.1\Alex Mindustry Launcher.dll
+C:\Users\tegar\source\repos\Alex Mindustry Launcher\Alex Mindustry Launcher\obj\Debug\netcoreapp3.1\Alex Mindustry Launcher.pdb
+C:\Users\tegar\source\repos\Alex Mindustry Launcher\Alex Mindustry Launcher\obj\Debug\netcoreapp3.1\Alex Mindustry Launcher.genruntimeconfig.cache
+C:\Users\tegar\source\repos\Alex Mindustry Launcher\Alex Mindustry Launcher\obj\Debug\netcoreapp3.1\Alex_Mindustry_Launcher.App.resources
+C:\Users\tegar\source\repos\Alex Mindustry Launcher\Alex Mindustry Launcher\obj\Debug\netcoreapp3.1\Alex_Mindustry_Launcher.Properties.Resources.resources
+C:\Users\tegar\source\repos\Alex Mindustry Launcher\Alex Mindustry Launcher\obj\Debug\netcoreapp3.1\Alex_Mindustry_Launcher.Splash.resources
