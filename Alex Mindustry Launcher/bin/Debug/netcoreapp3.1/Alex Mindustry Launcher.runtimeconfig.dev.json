@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\tegar\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\tegar\\.nuget\\packages"
-    ]
-  }
-}
