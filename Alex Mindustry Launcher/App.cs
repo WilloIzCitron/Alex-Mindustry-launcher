@@ -22,8 +22,19 @@ namespace Alex_Mindustry_Launcher
         
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            System.Diagnostics.Process.Start(text);
+            if (!text.Contains("mindustry.exe"))
+            {
+                errorProvider1.SetError(textBox1, "oh no. Invalid mindustry.exe path");
+            }
+            else if (text.Length == 0)
+            {
+                errorProvider1.SetError(textBox1, "oh no. mindustry path must be fill");
+            }
+            else
+            {
+                this.Hide();
+                System.Diagnostics.Process.Start(text);
+            }
         }
 
         public string text;
