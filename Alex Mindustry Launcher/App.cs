@@ -17,7 +17,13 @@ namespace Alex_Mindustry_Launcher
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+        
+        }
+        
+        private void button1_Clicked(object sender, EventArgs e)
+        {
+            this.Hide();
+            System.Diagnostics.Process.Start("mindustry.exe");
         }
     }
 }
