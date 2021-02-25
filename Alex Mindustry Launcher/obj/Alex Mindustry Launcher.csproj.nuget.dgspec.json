@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tegar\\source\\repos\\Alex Mindustry Launcher\\Alex Mindustry Launcher\\Alex Mindustry Launcher.csproj": {}
+    "C:\\Users\\tegar\\source\\repos\\Alex-Mindustry-launcher\\Alex Mindustry Launcher\\Alex Mindustry Launcher.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tegar\\source\\repos\\Alex Mindustry Launcher\\Alex Mindustry Launcher\\Alex Mindustry Launcher.csproj": {
+    "C:\\Users\\tegar\\source\\repos\\Alex-Mindustry-launcher\\Alex Mindustry Launcher\\Alex Mindustry Launcher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tegar\\source\\repos\\Alex Mindustry Launcher\\Alex Mindustry Launcher\\Alex Mindustry Launcher.csproj",
+        "projectUniqueName": "C:\\Users\\tegar\\source\\repos\\Alex-Mindustry-launcher\\Alex Mindustry Launcher\\Alex Mindustry Launcher.csproj",
         "projectName": "Alex Mindustry Launcher",
-        "projectPath": "C:\\Users\\tegar\\source\\repos\\Alex Mindustry Launcher\\Alex Mindustry Launcher\\Alex Mindustry Launcher.csproj",
+        "projectPath": "C:\\Users\\tegar\\source\\repos\\Alex-Mindustry-launcher\\Alex Mindustry Launcher\\Alex Mindustry Launcher.csproj",
         "packagesPath": "C:\\Users\\tegar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tegar\\source\\repos\\Alex Mindustry Launcher\\Alex Mindustry Launcher\\obj\\",
+        "outputPath": "C:\\Users\\tegar\\source\\repos\\Alex-Mindustry-launcher\\Alex Mindustry Launcher\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tegar\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -20,7 +20,7 @@ namespace Alex_Mindustry_Launcher
         
         }
         
-        private void button1_Clicked(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
             System.Diagnostics.Process.Start("mindustry.exe");

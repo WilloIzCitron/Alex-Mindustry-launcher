@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,6 +44,16 @@
             this.panel1.Size = new System.Drawing.Size(164, 385);
             this.panel1.TabIndex = 0;
             // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.BackColor = System.Drawing.Color.Green;
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Location = new System.Drawing.Point(1, 75);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(163, 310);
+            this.checkedListBox1.TabIndex = 0;
+            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
+            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
@@ -54,6 +64,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Run Mindustry";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel2
             // 
@@ -61,16 +72,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(164, 385);
             this.panel2.TabIndex = 0;
-            // 
-            // checkedListBox1
-            // 
-            this.checkedListBox1.BackColor = System.Drawing.Color.Green;
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(1, 75);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(163, 310);
-            this.checkedListBox1.TabIndex = 0;
-            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
             // App
             // 
