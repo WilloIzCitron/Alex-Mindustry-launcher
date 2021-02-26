@@ -70,12 +70,13 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Audiowide", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(747, 417);
+            this.label3.Location = new System.Drawing.Point(709, 417);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 17);
+            this.label3.Size = new System.Drawing.Size(90, 17);
             this.label3.TabIndex = 3;
-            this.label3.Text = "v1.0.0";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label3.Text = "v1.1.0-alpha";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // timer1
             // 

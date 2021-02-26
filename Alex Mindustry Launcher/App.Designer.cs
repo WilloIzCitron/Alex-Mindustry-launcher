@@ -132,6 +132,7 @@
             this.discord.TabIndex = 0;
             this.discord.Text = "Discord";
             this.discord.UseVisualStyleBackColor = false;
+            this.discord.Click += new System.EventHandler(this.discord_Click);
             // 
             // github
             // 

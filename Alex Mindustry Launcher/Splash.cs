@@ -43,5 +43,10 @@ namespace Alex_Mindustry_Launcher
                 this.Hide();
             }
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
