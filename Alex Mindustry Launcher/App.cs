@@ -58,5 +58,10 @@ namespace Alex_Mindustry_Launcher
         {
             System.Diagnostics.Process.Start("https://discord.com/invite/zne9M3qEbT");
         }
+
+        private void credit_Click(object sender, EventArgs e)
+        {
+            new Credits().Show();
+        }
     }
 }

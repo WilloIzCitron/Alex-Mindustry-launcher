@@ -110,6 +110,7 @@
             this.credit.TabIndex = 0;
             this.credit.Text = "Credits";
             this.credit.UseVisualStyleBackColor = false;
+            this.credit.Click += new System.EventHandler(this.credit_Click);
             // 
             // exptoax
             // 
