@@ -30,17 +30,17 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.credit = new System.Windows.Forms.Button();
+            this.exptoax = new System.Windows.Forms.Button();
+            this.discord = new System.Windows.Forms.Button();
+            this.github = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.label2 = new System.Windows.Forms.Label();
-            this.github = new System.Windows.Forms.Button();
-            this.discord = new System.Windows.Forms.Button();
-            this.exptoax = new System.Windows.Forms.Button();
-            this.credit = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
@@ -55,6 +55,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(164, 385);
             this.panel1.TabIndex = 0;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Audiowide", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label2.Location = new System.Drawing.Point(1, 46);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(98, 19);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Server list";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // checkedListBox1
             // 
@@ -89,6 +100,51 @@
             this.panel2.Size = new System.Drawing.Size(164, 385);
             this.panel2.TabIndex = 0;
             // 
+            // credit
+            // 
+            this.credit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.credit.Font = new System.Drawing.Font("Audiowide", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.credit.Location = new System.Drawing.Point(0, 133);
+            this.credit.Name = "credit";
+            this.credit.Size = new System.Drawing.Size(164, 23);
+            this.credit.TabIndex = 0;
+            this.credit.Text = "Credits";
+            this.credit.UseVisualStyleBackColor = false;
+            // 
+            // exptoax
+            // 
+            this.exptoax.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.exptoax.Font = new System.Drawing.Font("Audiowide", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.exptoax.Location = new System.Drawing.Point(0, 104);
+            this.exptoax.Name = "exptoax";
+            this.exptoax.Size = new System.Drawing.Size(164, 23);
+            this.exptoax.TabIndex = 0;
+            this.exptoax.Text = "EXP to Ax Convert";
+            this.exptoax.UseVisualStyleBackColor = false;
+            // 
+            // discord
+            // 
+            this.discord.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.discord.Font = new System.Drawing.Font("Audiowide", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.discord.Location = new System.Drawing.Point(0, 75);
+            this.discord.Name = "discord";
+            this.discord.Size = new System.Drawing.Size(164, 23);
+            this.discord.TabIndex = 0;
+            this.discord.Text = "Discord";
+            this.discord.UseVisualStyleBackColor = false;
+            // 
+            // github
+            // 
+            this.github.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.github.Font = new System.Drawing.Font("Audiowide", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.github.Location = new System.Drawing.Point(0, 46);
+            this.github.Name = "github";
+            this.github.Size = new System.Drawing.Size(164, 23);
+            this.github.TabIndex = 0;
+            this.github.Text = "Github";
+            this.github.UseVisualStyleBackColor = false;
+            this.github.Click += new System.EventHandler(this.github_Click);
+            // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(277, 229);
@@ -110,62 +166,6 @@
             // errorProvider1
             // 
             this.errorProvider1.ContainerControl = this;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Audiowide", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.label2.Location = new System.Drawing.Point(1, 46);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 19);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Server list";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // github
-            // 
-            this.github.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.github.Font = new System.Drawing.Font("Audiowide", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.github.Location = new System.Drawing.Point(0, 46);
-            this.github.Name = "github";
-            this.github.Size = new System.Drawing.Size(164, 23);
-            this.github.TabIndex = 0;
-            this.github.Text = "Github";
-            this.github.UseVisualStyleBackColor = false;
-            this.github.Click += new System.EventHandler(this.github_Click);
-            // 
-            // discord
-            // 
-            this.discord.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.discord.Font = new System.Drawing.Font("Audiowide", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.discord.Location = new System.Drawing.Point(0, 75);
-            this.discord.Name = "discord";
-            this.discord.Size = new System.Drawing.Size(164, 23);
-            this.discord.TabIndex = 0;
-            this.discord.Text = "Discord";
-            this.discord.UseVisualStyleBackColor = false;
-            // 
-            // exptoax
-            // 
-            this.exptoax.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.exptoax.Font = new System.Drawing.Font("Audiowide", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.exptoax.Location = new System.Drawing.Point(0, 104);
-            this.exptoax.Name = "exptoax";
-            this.exptoax.Size = new System.Drawing.Size(164, 23);
-            this.exptoax.TabIndex = 0;
-            this.exptoax.Text = "EXP to Ax Convert";
-            this.exptoax.UseVisualStyleBackColor = false;
-            // 
-            // credit
-            // 
-            this.credit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.credit.Font = new System.Drawing.Font("Audiowide", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.credit.Location = new System.Drawing.Point(0, 133);
-            this.credit.Name = "credit";
-            this.credit.Size = new System.Drawing.Size(164, 23);
-            this.credit.TabIndex = 0;
-            this.credit.Text = "Credits";
-            this.credit.UseVisualStyleBackColor = false;
             // 
             // App
             // 
