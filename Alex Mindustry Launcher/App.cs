@@ -43,5 +43,15 @@ namespace Alex_Mindustry_Launcher
         {
             text = textBox1.Text;
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void github_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
