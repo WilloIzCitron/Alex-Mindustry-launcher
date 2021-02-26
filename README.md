@@ -1,6 +1,6 @@
 # Alex Mindustry launcher
  
-Alex Mindustry Launcher its custom mindustry launcher from ALEX. its inspired from MindustryRu/Game-Launcher
+Alex Mindustry Launcher its custom mindustry launcher from ALEX Community. its inspired from MindustryRu/Game-Launcher
 
 ## Features
 
