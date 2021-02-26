@@ -9,4 +9,7 @@ Alex Mindustry Launcher its custom mindustry launcher from ALEX Community. its i
 - EXP to AX Converter(under alpha)
 
 ## Build
-For Build. im using Visual Studio, and you need .NET Core 3.1
+For Build. you need using:
+- Visual Studio and .NET Core 3.1
+- For VSCode, install C# Extension and .NET Core 3.1
+
