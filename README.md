@@ -11,5 +11,5 @@ Alex Mindustry Launcher its custom mindustry launcher from ALEX Community. its i
 ## Build
 For Build. you need using:
 - Visual Studio and .NET Core 3.1
-- For VSCode, install C# Extension and .NET Core 3.1
+- For VSCode, install C# Extension and .NET Core 3.1. but for Form Designer itsnt avaible
 
