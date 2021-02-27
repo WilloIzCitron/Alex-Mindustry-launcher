@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Credits));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -122,7 +123,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Audiowide", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(262, 305);
+            this.label9.Location = new System.Drawing.Point(278, 330);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(283, 51);
             this.label9.TabIndex = 0;
@@ -132,12 +133,12 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label10.Location = new System.Drawing.Point(93, 356);
+            this.label10.Location = new System.Drawing.Point(109, 381);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(615, 19);
+            this.label10.Size = new System.Drawing.Size(619, 19);
             this.label10.TabIndex = 1;
-            this.label10.Text = "Husk777  AustinMatt1 GrahamAker  GhostGaia  evil.exe Bruhder  Zhenьkotron ReaperF" +
-    "romTaiwan ";
+            this.label10.Text = "Husk777  AustinMatt1 GrahamAker  GhostGaia  evil.exe Bruhder  Zhenьkotron  Reaper" +
+    "FromTaiwan ";
             // 
             // Credits
             // 
@@ -155,6 +156,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Credits";
             this.Text = "Credits";
             this.ResumeLayout(false);

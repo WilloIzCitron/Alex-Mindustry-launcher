@@ -19,6 +19,7 @@ namespace Alex_Mindustry_Launcher
         {
             timeLeft = 100;
             timer1.Start();
+            label4.Text = "Copyright© Alex Mindustry " + DateTime.Now.Year +"";
         }
 
         public int timeLeft { get; set; }
@@ -30,6 +31,22 @@ namespace Alex_Mindustry_Launcher
                 timeLeft = timeLeft - 1;
                 this.progressBar1.Increment(1);
 
+                if (timeLeft == 3)
+                {
+                    label1.Text = "Ready";
+                }
+                if (timeLeft == 30)
+                {
+                    label1.Text = "Loading Resources";
+                }
+                if (timeLeft == 60)
+                {
+                    label1.Text = "Loading Data";
+                }
+                if (timeLeft == 100)
+                {
+                    label1.Text = "Processing";
+                }
             }
 
             else

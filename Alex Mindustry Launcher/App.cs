@@ -51,12 +51,12 @@ namespace Alex_Mindustry_Launcher
 
         private void github_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/willoizcitron/alex-mindustry-launcher");
+            System.Diagnostics.Process.Start("https://github.com/willoizcitron/alex-mindustry-launcher/");
         }
 
         private void discord_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://discord.com/invite/zne9M3qEbT");
+            System.Diagnostics.Process.Start("https://discord.com/invite/zne9M3qEbT/");
         }
 
         private void credit_Click(object sender, EventArgs e)
